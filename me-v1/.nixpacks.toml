@@ -1,0 +1,8 @@
+[phases.build]
+cmds = [
+  "bun install",
+  "bun run build"
+]
+
+[start]
+cmd = "echo 'Static site – no server needed'"
