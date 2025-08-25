@@ -8,12 +8,15 @@ export default function Navbar() {
       </a>
 
       {/* navigation buttons */}
-      <div className="flex gap-5 font-semibold tracking-wide">
+      <div className="hidden sm:flex gap-5 font-semibold tracking-wide">
         <h1 className="cursor-pointer hover:text-primary duration-200">
           experience
         </h1>
         <h1 className="cursor-pointer hover:text-primary duration-200">
           projects
+        </h1>
+        <h1 className="cursor-pointer hover:text-primary duration-200">
+          skills
         </h1>
       </div>
     </div>
