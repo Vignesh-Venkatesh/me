@@ -37,7 +37,7 @@ export default function ExperienceCard({
 
       <div className="mt-2 opacity-85 transition duration-300">
         {description.map((point, index) => (
-          <p key={index}>- {point}</p>
+          <p key={index}>• {point}</p>
         ))}
       </div>
     </div>

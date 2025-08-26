@@ -2,7 +2,7 @@ import ExperienceCard from "./ExperienceCard";
 
 export default function Experience() {
   return (
-    <div className="py-10">
+    <div className="py-10" id="experience">
       <h1 className="font-semibold opacity-40 tracking-wider text-xl mb-2">
         /experience
       </h1>
