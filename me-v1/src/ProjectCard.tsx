@@ -56,7 +56,9 @@ export default function ProjectCard({
       {/* skills */}
       <div className="mt-2 flex flex-wrap gap-2">
         {skills.map((skill, index) => (
-          <kbd className="kbd kbd-md">{skill}</kbd>
+          <kbd key={index} className="kbd kbd-md">
+            {skill}
+          </kbd>
         ))}
       </div>
     </div>

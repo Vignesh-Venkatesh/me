@@ -1,4 +1,3 @@
-import ExperienceCard from "./ExperienceCard";
 import ProjectCard from "../ProjectCard";
 
 export default function Projects() {
