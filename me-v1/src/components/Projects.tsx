@@ -19,16 +19,24 @@ export default function Projects() {
         ]}
       />
 
-      {/* ReelSleuth Project */}
+      {/* Movieboxd Project */}
       <ProjectCard
-        project_title="ReelSleuth"
-        github="https://github.com/Vignesh-Venkatesh/ReelSleuth"
-        website="https://reelsleuth.netlify.app/"
-        skills={["HTML", "CSS", "JavaScript", "Firebase", "TMDb API"]}
+        project_title="Movieboxd"
+        github="https://github.com/Vignesh-Venkatesh/MovieBoxd"
+        website="https://movieboxd.vigneshvenkatesh.com/"
+        skills={[
+          "React",
+          "TypeScript",
+          "Hono",
+          "PostgreSQL",
+          "Supabase",
+          "TMDb API",
+        ]}
         description={[
-          "Developed a website for movie enthusiasts to search, track, and manage movie wish lists and favorites.",
-          "Integrated TMDB API using JavaScript to fetch movie details and cast information.",
-          "Implemented user authentication and data storage features using Firebase, ensuring secure login and personalized user experiences.",
+          "Built a full-stack web application for discovering, reviewing, and tracking movies, inspired by Letterboxd.",
+          "Developed a secure auth system using Supabase Auth and managed user data with Supabase (PostgreSQL).",
+          "Integrated the TMDB API to fetch real-time movie metadata, ratings, and cast details.",
+          "Designed a RESTful backend using Hono, enabling scalable and efficient API endpoints.",
         ]}
       />
 
